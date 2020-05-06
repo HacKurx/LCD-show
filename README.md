@@ -122,6 +122,8 @@ sudo ./MHS35-show
 CN: http://www.lcdwiki.com/zh/MHS-3.5inch_RPi_Display  <br>
 EN:http://www.lcdwiki.com/MHS-3.5inch_RPi_Display
 
+To work, this requires the "CONFIG_FB_TFT_ILI9486=y" option in the kernel.
+
 # MHS-3.5” RPi Display-B(MHS35XX):
 ### Driver install:
 sudo ./MHS35B-show
